@@ -1,3 +1,11 @@
+-- create prices table
+CREATE TABLE prices AS
+SELECT 'Netflix' AS platform, 8.99 AS monthly_price UNION ALL
+SELECT 'Hulu', 11.99 UNION ALL
+SELECT 'Disney Plus', 11.99 UNION ALL
+SELECT 'Amazon Prime', 14.99 UNION ALL
+SELECT 'Disney Hulu Bundle', 12.99;
+
 -- create summary table
 CREATE TABLE summary AS
 SELECT
